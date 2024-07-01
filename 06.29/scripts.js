@@ -1,5 +1,5 @@
 //1. feladat
-let firstDiv = document.body.firstElementChild;
+let firstDiv = document.body.firstElementChild; //document.body.children[0], document.body.childNodes[1]
 
 //2. feladat
 let firstUl = firstDiv.nextElementSibling;

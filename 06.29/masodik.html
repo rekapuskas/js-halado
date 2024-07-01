@@ -52,9 +52,10 @@
       </tr>
     </table>
     <script>
-      let table = document.body.firstElementChild;
-      for (let rowIndex = 0; rowIndex < table.rows.length; ++rowIndex) {
-        const row = table.rows[rowIndex];
+      const table = document.body.firstElementChild;
+      for(let i = 0; i < table.rows.length; ++i){
+        let row = table.row[i];
+        row.cells[i].style.backgroundColor = 'red';
       }
     </script>
   </body>
